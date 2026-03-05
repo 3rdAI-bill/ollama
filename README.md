@@ -36,4 +36,4 @@ Or set `COMPOSE_FILE=docker-compose.yml:docker-compose.gpu.yml` and run `docker 
 
 ## Usage from another stack
 
-To use this Ollama instance from another Docker stack (e.g. Agent Zero), attach that stack to the same network and set the LLM API base to `http://ollama:11434`, or use the host’s IP and port `11434` if the port is published.
+To use this Ollama instance from another Docker stack (e.g. Agent Zero), attach that stack to the same network and set the LLM API base to `http://ollama:11434`, or use the host's IP and port `11434` if the port is published.
